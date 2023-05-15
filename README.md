@@ -30,4 +30,4 @@ Curso Normal de Eventos:
 (total + pinturauno[i] + pinturados[i];)
 4. Se Muestra el total de las ventas
 Postcondiciones: total Calculado
-[code](google.com)
+[code](https://github.com/kleinefer/POO.git)
