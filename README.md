@@ -18,7 +18,8 @@ When calcular promedio
 Then guardar la información del comprador como:
 Identificación y el nombre completo, precio del producto y obtener el total de la compra
 
-Aproximación caso de uso:
+caso de uso:
+
 Descripción caso de uso
 Nombre: Calcular total de productos
 Actores: empresario
@@ -30,4 +31,49 @@ Curso Normal de Eventos:
 (total + pinturauno[i] + pinturados[i];)
 4. Se Muestra el total de las ventas
 Postcondiciones: total Calculado
+
+Aproxiamciones Diagrama de flujo:
+
+Entender el anterior diagrama no debe presentar mayores problemas. Sin embargo, es conveniente realizar las siguientes 
+aclaraciones y comentarios: 
+• Aunque se puede condensar el código incluyendo las instrucciones del segundo “Para” dentro del primero, de manera 
+intencional se ha dejado así intencionalmente para delimitar funcionalmente cada bloque de código. 
+• En el algoritmo se captura información, como la identificación, el nombre y el curso, que no se utiliza; sin embargo, 
+esta información se mantiene porque posteriormente puede ser útil para ampliar la funcionalidad de la aplicación. 
+Inicialmente el algoritmo no contempla validaciones como impedir el doble ingreso de un mismo número de 
+identificación
+
+pseudocodigo:
+Inicio
+Caracteres: identificaciones [50], nombres [50], valor [50]
+Real: pinturauno [50], pinturados [50], pinturatres [50]
+Caracteres: identificacion, nombre, valor
+Entero: clientes, i
+Real: pintura1, pintura2, pintura3, total <- 0
+Imprimir: ‘Digite el número de clientes:’
+Asignar: cliente
+Para i=0 hasta numeroEstudiantes - 1, 1
+Imprimir: ‘Digite la identificación del cliente:’
+Asignar: identificacion
+Imprimir: ‘Digite el nombre del cliente:’
+Asignar: nombre
+Imprimir: ‘Digite valor 1 de pintura:’
+Asignar: nota1
+Imprimir: ‘Digite valor 2 de pintura:’
+Asignar: nota2
+Imprimir: ‘Digite valor 3 de pintura:’
+Asignar: nota 3
+identificaciones[i] <- identificacion
+nombres [i] <- nombre
+pinturauno[i] <- pintura1
+pinturados[i] <- pintura2
+pinturatres[i] <- pintura3  
+finPara
+Para i=0 hasta cliente -1, 1
+total <-
+total +((pinturauno[i]+pinturados[i]+pinturatres[i]))cliente
+finPara
+Imprimir: ‘El total es:’ + total
+Fin
+
 [code](https://github.com/kleinefer/POO.git)
