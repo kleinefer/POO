@@ -33,7 +33,7 @@ Curso Normal de Eventos:
 Postcondiciones: total Calculado
 
 Aproxiamciones Diagrama de flujo:
-
+ 
 Entender el anterior diagrama no debe presentar mayores problemas. Sin embargo, es conveniente realizar las siguientes 
 aclaraciones y comentarios: 
 • Aunque se puede condensar el código incluyendo las instrucciones del segundo “Para” dentro del primero, de manera 
@@ -58,11 +58,11 @@ Asignar: identificacion
 Imprimir: ‘Digite el nombre del cliente:’
 Asignar: nombre
 Imprimir: ‘Digite valor 1 de pintura:’
-Asignar: nota1
+Asignar: pintura1
 Imprimir: ‘Digite valor 2 de pintura:’
-Asignar: nota2
+Asignar: pintura2
 Imprimir: ‘Digite valor 3 de pintura:’
-Asignar: nota 3
+Asignar: pintura 3
 identificaciones[i] <- identificacion
 nombres [i] <- nombre
 pinturauno[i] <- pintura1
