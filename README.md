@@ -33,6 +33,7 @@ Curso Normal de Eventos:
 Postcondiciones: total Calculado
 
 Aproxiamciones Diagrama de flujo:
+(imagen en carpeta)
  
 Entender el anterior diagrama no debe presentar mayores problemas. Sin embargo, es conveniente realizar las siguientes 
 aclaraciones y comentarios: 
