@@ -27,7 +27,7 @@ Propósito: Guardar identificación, nombre, cantidad y valor del producto para 
 Curso Normal de Eventos: 
 1. El empresario ingresa la cantidad.
 2. El Empresario ingresa la identificación, nombre valor del producto
-3. Se calcula el total a partir de: 
+3. Se calcula el total a partir de:  
 (total + pinturauno[i] + pinturados[i];)
 4. Se Muestra el total de las ventas
 Postcondiciones: total Calculado
